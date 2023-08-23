@@ -1,4 +1,4 @@
-import Dashboard from './pages/Dashboard/Dashboard';
+import Dashboard from './pages/dashboard/Dashboard';
 import Login from './pages/login/Login';
 import {
   createBrowserRouter,
