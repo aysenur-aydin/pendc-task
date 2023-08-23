@@ -1,0 +1,307 @@
+* {
+  font-family: Inter;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  --bs-btn-font-size: 0.875rem;
+}
+
+.page-background {
+  background-color: #f9fafb;
+}
+
+/*----- BRAND UI KIT -----*/
+
+/* Text Colors */
+.text-primary {
+  color: #fd7e0d !important;
+}
+.text-orange-200 {
+  color: #fed7b4;
+}
+.text-orange-500 {
+  color: #fd983d;
+}
+.text-green-600 {
+  color: #12b76a;
+}
+.text-red-600 {
+  color: #f04438;
+}
+.text-gray-200 {
+  color: #eaecf0;
+}
+.text-gray-300 {
+  color: #d0d5dd;
+}
+.text-gray-500 {
+  color: #667085;
+}
+.text-gray-600 {
+  color: #475467;
+}
+.text-gray-700 {
+  color: #344054;
+}
+.text-gray-800 {
+  color: #1d2939;
+}
+
+/* Background Color */
+.bg-primary {
+  background-color: #fd7e0d;
+}
+.bg-orange-100 {
+  background-color: #fff4eb;
+}
+/* Border Color */
+.border-gray-200 {
+  --bs-border-color: #eaecf0;
+}
+.border-gray-300 {
+  --bs-border-color: #d0d5dd;
+}
+/* Typography*/
+.text-x-small {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+.text-small {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-large {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.37rem;
+}
+/* Button */
+.btn-primary {
+  --bs-btn-bg: #fd7e0d;
+  --bs-btn-border-color: #fd7e0d;
+  --bs-btn-hover-border-color: #fed7b4;
+  --bs-btn-hover-bg: #fed7b4;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #fed7b4;
+  --bs-btn-disabled-border-color: #fed7b4;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 0;
+  --bs-nav-link-color: #344054;
+  --bs-navbar-active-color: #fd7e0d;
+  --bs-navbar-hover-color: #fd7e0d;
+}
+.container-fluid {
+  --bs-gutter-x: 12rem;
+}
+.nav-item span {
+  color: #344054;
+}
+
+nav .nav-link {
+  padding: 1.4rem 0 1.4rem 0;
+  --bs-nav-link-font-weight: 500;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-menu {
+  --bs-dropdown-border-color: none;
+  --bs-dropdown-font-size: 0.875rem;
+  --bs-dropdown-item-padding-y: 0.8rem;
+  --bs-dropdown-link-active-bg: #f7f9fc;
+  --bs-dropdown-link-active-color: #fd7e0d;
+  font-weight: 500;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  vertical-align: top;
+}
+
+.nav.account a {
+  --bs-link-color-rgb: #344054;
+  --bs-link-hover-color-rgb: #fd7e0d;
+}
+
+hr {
+  opacity: 0.75;
+}
+
+.page-link {
+  --bs-pagination-color: #667085;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.btn-group {
+  --bs-body-color: #667085;
+}
+
+.btn-group .btn.active {
+  --bs-btn-active-bg: #f8f8f8;
+  --bs-btn-active-color: #344054;
+  --bs-btn-font-weight: 500;
+}
+
+.dropdown {
+  word-wrap: break-word;
+}
+
+.balance-card {
+  background-image: linear-gradient(
+      270deg,
+      rgba(255, 244, 235, 0.9) 0%,
+      rgba(255, 255, 255, 0.44) 100%
+    ),
+    url(./public/3d.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ticket-list-table */
+table.ticket-list-table th {
+  color: #667085; /* gray-500 */
+  font-weight: 500;
+}
+
+table.ticket-list-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: -10px; /* correct offset on first border spacing if desired */
+}
+
+.ticket-list-table th {
+  color: #475467; /* gray-600 */
+  font-weight: 500;
+  --bs-table-bg: #f9fafb;
+  --bs-border-radius: 4px;
+}
+
+.ticket-list-table th:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 1rem;
+}
+
+.ticket-list-table th:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-right: 1rem;
+}
+
+.ticket-list-table tbody tr td:first-child div {
+  display: flex;
+  width: fit-content;
+}
+
+.ticket-list-table tbody tr td:not(:first-child) {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.ticket-list-table tbody tr:last-child td {
+  padding-bottom: 2.5rem;
+  border: 0;
+}
+
+.ticket-list-table tbody tr td {
+  color: #344054; /* gray-700*/
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  padding: 1rem;
+  align-items: center;
+}
+
+/* elec-consumption-table */
+table.elec-consumption-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: -10px; /* correct offset on first border spacing if desired */
+}
+table.elec-consumption-table th {
+  color: #475467; /* gray-600 */
+  font-weight: 500;
+  --bs-table-bg: #f9fafb;
+  --bs-border-radius: 4px;
+}
+
+.elec-consumption-table th:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 1rem;
+}
+.elec-consumption-table th:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-right: 1rem;
+}
+.elec-consumption-table tbody tr td {
+  color: #344054; /* gray-700*/
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+.elec-consumption-table tbody tr td:not(:first-child) {
+  padding-left: 0.5rem;
+}
+.elec-consumption-table tbody tr td:last-child {
+  color: #fd7e0d; /* primary */
+  font-weight: 500;
+  text-align: end;
+  padding-bottom: 1.25rem;
+}
+.elec-consumption-table tbody tr:last-child td {
+  border: 1;
+  border-bottom-color: #fd983d;
+}
+
+/* LOGIN PAGE */
+.logo {
+  margin-top: 3.5rem;
+}
+.form-label {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+::placeholder {
+  color: #667085;
+}
+

@@ -1,0 +1,27 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_1_2084)">
+<rect width="48" height="48" rx="24" fill="#FED7B4"/>
+</g>
+<g filter="url(#filter1_b_1_2084)">
+<rect width="48" height="48" rx="24" fill="url(#paint0_radial_1_2084)"/>
+</g>
+<path d="M34.0004 24H14.0004M34.0004 24V30C34.0004 30.5304 33.7897 31.0391 33.4146 31.4142C33.0395 31.7893 32.5308 32 32.0004 32H16.0004C15.47 32 14.9613 31.7893 14.5862 31.4142C14.2111 31.0391 14.0004 30.5304 14.0004 30V24M34.0004 24L30.5504 17.11C30.3848 16.7768 30.1296 16.4963 29.8134 16.3002C29.4971 16.1042 29.1325 16.0002 28.7604 16H19.2404C18.8683 16.0002 18.5037 16.1042 18.1874 16.3002C17.8712 16.4963 17.616 16.7768 17.4504 17.11L14.0004 24M18.0004 28H18.0104M22.0004 28H22.0104" stroke="#FD7E0D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_b_1_2084" x="-22" y="-22" width="92" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="11"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_2084"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_2084" result="shape"/>
+</filter>
+<filter id="filter1_b_1_2084" x="-22" y="-22" width="92" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="11"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_2084"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_2084" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_1_2084" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.5 4) rotate(44.3179) scale(59.4012 106.063)">
+<stop stop-color="white" stop-opacity="0.78"/>
+<stop offset="1" stop-color="white" stop-opacity="0.44"/>
+</radialGradient>
+</defs>
+</svg>

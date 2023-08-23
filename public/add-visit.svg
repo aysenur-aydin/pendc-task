@@ -1,0 +1,27 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_1_2235)">
+<rect width="48" height="48" rx="24" fill="#FED7B4"/>
+</g>
+<g filter="url(#filter1_b_1_2235)">
+<rect width="48" height="48" rx="24" fill="url(#paint0_radial_1_2235)"/>
+</g>
+<path d="M28.3325 33.75V16.4167C28.3325 15.842 28.1042 15.2909 27.6979 14.8846C27.2916 14.4783 26.7405 14.25 26.1658 14.25H21.8325C21.2579 14.25 20.7068 14.4783 20.3004 14.8846C19.8941 15.2909 19.6658 15.842 19.6658 16.4167V33.75M15.3325 18.5833H32.6658C33.8624 18.5833 34.8325 19.5534 34.8325 20.75V31.5833C34.8325 32.78 33.8624 33.75 32.6658 33.75H15.3325C14.1359 33.75 13.1658 32.78 13.1658 31.5833V20.75C13.1658 19.5534 14.1359 18.5833 15.3325 18.5833Z" stroke="#FD7E0D" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_b_1_2235" x="-22" y="-22" width="92" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="11"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_2235"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_2235" result="shape"/>
+</filter>
+<filter id="filter1_b_1_2235" x="-22" y="-22" width="92" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="11"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_2235"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_2235" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_1_2235" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.5 4) rotate(44.3179) scale(59.4012 106.063)">
+<stop stop-color="white" stop-opacity="0.78"/>
+<stop offset="1" stop-color="white" stop-opacity="0.44"/>
+</radialGradient>
+</defs>
+</svg>
