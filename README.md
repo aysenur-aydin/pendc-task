@@ -1,10 +1,10 @@
-# [Pen DC ]()
+# [Pen DC ](https://pendc-task-six.vercel.app)
 
 A web page task given by PenDC
 
-![Login Page](public\pendc_login.png)
+<img src="/public/pendc_login.png" alt="Login Page" width="550">
 
-![Dashboard Page](public\pendc_dashboard.png)
+<img src="/public/pendc_dashboard.png" alt="Login Page" width="550">
 
 ## Features
 
