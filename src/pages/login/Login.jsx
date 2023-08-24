@@ -9,7 +9,7 @@ const Login = () => {
           <nav className="navbar p-0">
             <span className="navbar-brand">
               <img
-                src={'./public/logo.svg'}
+                src={'/public/logo.svg'}
                 alt="PENDC"
                 className="navbar-brand"
                 width={176}
@@ -72,7 +72,7 @@ const Login = () => {
           </div>
         </div>
         <div className="col-xs-12 col-lg-7">
-          <img src={'.public/company.svg'} className="w-100" />
+          <img src={'/public/company.svg'} className="w-100" />
         </div>
       </div>
     </div>
