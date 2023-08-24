@@ -1,5 +1,6 @@
 * {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Remove default margin */
@@ -305,3 +306,8 @@ table.elec-consumption-table th {
   color: #667085;
 }
 
+@media (min-width: 992px) {
+  .ps-lg-5 {
+    padding-left: 6rem !important;
+  }
+}

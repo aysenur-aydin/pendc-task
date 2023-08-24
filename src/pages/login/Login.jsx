@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
-    <div className="container me-lg-0">
+    <div className="container min-vw-100 me-lg-0  pe-0 ps-lg-5">
       <div className="row justify-content-lg-between">
-        <div className="col-xs-12 col-lg-5 d-flex flex-column justify-content-evenly min-vh-100">
+        <div className="col-xs-12 col-lg-5 py-3 d-flex flex-column justify-content-evenly vh-100">
           <nav className="navbar p-0">
-            <span className="navbar-brand">
+            <span className="navbar-brand py-4">
               <img
                 src={'/logo.svg'}
                 alt="PENDC"
@@ -71,7 +71,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <div className="col-xs-12 col-lg-7">
+        <div className="col-xs-12 col-lg-6 px-0 min-vh-100">
           <img src="/company.svg" className="w-100" />
         </div>
       </div>
