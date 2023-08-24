@@ -2,9 +2,9 @@
 
 A web page task given by PenDC
 
-<img src="/public/pendc_login.png" alt="Login Page" width="550">
+<a href="https://pendc-task-six.vercel.app/"><img src="/public/pendc_login.png" alt="Login Page" width="550"></a>
 
-<img src="/public/pendc_dashboard.png" alt="Login Page" width="550">
+<a href="https://pendc-task-six.vercel.app/dashboard"><img src="/public/pendc_dashboard.png" alt="Login Page" width="550"></a>
 
 ## Features
 
