@@ -59,10 +59,7 @@ function ChartBox() {
         </div>
       </div>
       <div className="col-12 p-0 d-flex justify-content-center w-100">
-        <img
-          src="./public/graphic.svg"
-          className="img-fluid pt-4 pb-3 px-3 w-100"
-        />
+        <img src="/graphic.svg" className="img-fluid pt-4 pb-3 px-3 w-100" />
       </div>
     </div>
   );

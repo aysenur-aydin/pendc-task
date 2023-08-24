@@ -35,7 +35,7 @@ function TicketListCard() {
           <tr>
             <td>
               <div>
-                <img src=".\public\ticket.svg" className="me-3" />
+                <img src="/ticket.svg" className="me-3" />
                 <div className="d-flex flex-column justify-content-evenly">
                   <p className=" text-gray-700 fw-medium">
                     Sunucu Problemleri Hakkında Bi...
@@ -51,13 +51,13 @@ function TicketListCard() {
               <span className="text-red-600 fw-medium">Yüksek</span>
             </td>
             <td>
-              <img src=".\public\badge.svg" />
+              <img src="/badge.svg" />
             </td>
           </tr>
           <tr>
             <td>
               <div>
-                <img src=".\public\ticket.svg" className="me-3" />
+                <img src="/ticket.svg" className="me-3" />
                 <div className="d-flex flex-column justify-content-evenly">
                   <p className=" text-gray-700 fw-medium">Aktarım Sorunları</p>
                   <p className="text-gray-500">Ticket No: #2214</p>
@@ -73,7 +73,7 @@ function TicketListCard() {
               </span>
             </td>
             <td>
-              <img src=".\public\badge.svg" />
+              <img src="/badge.svg" />
             </td>
           </tr>
         </tbody>

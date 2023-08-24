@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg text-small ">
       <div className="container-fluid">
         <span className="navbar-brand">
-          <img src="./public/logo.svg" alt="PENDC" className="navbar-brand" />
+          <img src="/logo.svg" alt="PENDC" className="navbar-brand" />
         </span>
         <button
           className="navbar-toggler"
@@ -116,7 +116,7 @@ const Navbar = () => {
               data-bs-toggle="dropdown"
               href="#"
             >
-              <img src="..\public\avatar.svg" className="me-2" />
+              <img src=".\avatar.svg" className="me-2" />
               <div className="d-flex flex-column">
                 <p className="">Burak Güneş</p>
                 <p className=" text-x-small text-gray-500">Pentech Bilişim</p>
@@ -134,7 +134,11 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#" onClick={redirectToLogin}>
+                  <a
+                    className="dropdown-item"
+                    href="#"
+                    onClick={redirectToLogin}
+                  >
                     Çıkış
                   </a>
                 </li>
