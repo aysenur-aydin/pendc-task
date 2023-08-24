@@ -2,17 +2,17 @@
 
 A web page task given by PenDC
 
-<img src="/public/pendc_login.png" alt="Login Page" width="550">
+<a href="https://pendc-task-six.vercel.app/"><img src="/public/pendc_login.png" alt="Login Page" width="550"></a>
 
-<img src="/public/pendc_dashboard.png" alt="Login Page" width="550">
+<a href="https://pendc-task-six.vercel.app/dashboard"><img src="/public/pendc_dashboard.png" alt="Login Page" width="550"></a>
 
 ## Features
 
 - Responsive design
 - Pixel perfect design
 - Navigation menu (dropdown, collapse)
-- Redirect other adress when clicked submit button
-- Redirect to the login page from the user dropdown menu logs out link
+- Direct to the dashboard page when clicking the sign in button
+- Redirect to the login page from the user dropdown menu logout link
 
 ## Future Plans
 

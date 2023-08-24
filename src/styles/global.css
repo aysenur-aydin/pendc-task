@@ -183,7 +183,7 @@ hr {
       rgba(255, 244, 235, 0.9) 0%,
       rgba(255, 255, 255, 0.44) 100%
     ),
-    url(./public/3d.svg);
+    url(/3d.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
