@@ -11,8 +11,8 @@ A web page task given by PenDC
 - Responsive design
 - Pixel perfect design
 - Navigation menu (dropdown, collapse)
-- Redirect other adress when clicked submit button
-- Redirect to the login page from the user dropdown menu logs out link
+- Direct to the dashboard page when clicking the sign in button
+- Redirect to the login page from the user dropdown menu logout link
 
 ## Future Plans
 
