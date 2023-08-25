@@ -2,9 +2,15 @@
 
 A web page task given by PenDC
 
-<a href="https://pendc-task-six.vercel.app/"><img src="/public/pendc_login.png" alt="Login Page" width="550"></a>
+![Page GIF](public/login_page.gif)
 
-<a href="https://pendc-task-six.vercel.app/dashboard"><img src="/public/pendc_dashboard.png" alt="Login Page" width="550"></a>
+## Screenshots
+
+<a href="https://pendc-task-six.vercel.app/"><img src="public/login_page.png" alt="Login Page"></a>
+
+<a href="https://pendc-task-six.vercel.app/dashboard"><img src="public/pendc_dashboard.png" alt="Dashboard Page"></a>
+
+<img src="public/login_page_responsive.png" alt="Responsive login page" width="250">
 
 ## Features
 
