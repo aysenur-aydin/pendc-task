@@ -346,6 +346,26 @@ form {
 
   .login-left {
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/company.svg);
+    background-color: #ffffffb0;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+
+    .login-brand {
+      margin: auto auto 2rem 0;
+    }
+
+    .login-header {
+      align-items: center;
+
+      .login-form {
+        width: 100%;
+      }
+    }
   }
 
   .login-right {

@@ -16,7 +16,7 @@ const Login = () => {
               />
             </span>
           </nav>
-          <div className="d-flex flex-column ">
+          <div className="login-header d-flex flex-column">
             <div>
               <h1 className="text-3xl text-gray-800 fw-semibold mb-3">
                 Pendc’ye Hoşgeldiniz
@@ -25,7 +25,7 @@ const Login = () => {
                 Kullanıcı bilgileriniz ile giriş yapabilirsiniz.
               </p>
             </div>
-            <form>
+            <form className="login-form">
               <div className="form-outline mb-3">
                 <label className="form-label" htmlFor="emailAdress">
                   E-Posta Adresi
