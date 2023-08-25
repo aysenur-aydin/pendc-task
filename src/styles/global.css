@@ -302,21 +302,21 @@ table.elec-consumption-table th {
   grid-template-columns: 50% 50%;
   overflow: hidden;
 }
+.login-brand {
+  margin-top: 3.5rem;
+  margin-bottom: 8.7rem;
+}
+
 .login-left {
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding-left: 110px;
 }
-.login-right {
-  background-image: url(/company.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-}
-.logo {
-  margin-top: 3.5rem;
+form {
+  width: 65%;
+  margin-top: 2rem;
 }
 .form-label {
   margin-bottom: 0.25rem;
@@ -324,8 +324,19 @@ table.elec-consumption-table th {
   line-height: 1.25rem;
   font-weight: 500;
 }
+.login-footer {
+  margin-top: 2.5rem;
+}
 ::placeholder {
   color: #667085;
+}
+
+.login-right {
+  background-image: url(/company.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
