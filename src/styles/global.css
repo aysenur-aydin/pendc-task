@@ -292,6 +292,29 @@ table.elec-consumption-table th {
 }
 
 /* LOGIN PAGE */
+.login-body {
+  padding: 0;
+  margin: 0;
+}
+.login-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+}
+.login-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 110px;
+}
+.login-right {
+  background-image: url(/company.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
 .logo {
   margin-top: 3.5rem;
 }
@@ -305,8 +328,16 @@ table.elec-consumption-table th {
   color: #667085;
 }
 
-@media (min-width: 992px) {
-  .ps-lg-5 {
-    padding-left: 6rem !important;
+@media (max-width: 768px) {
+  .login-container {
+    grid-template-columns: auto;
+  }
+
+  .login-left {
+    padding: 40px;
+  }
+
+  .login-right {
+    display: none;
   }
 }
