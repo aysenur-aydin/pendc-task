@@ -19,8 +19,8 @@ function TicketListCard() {
           className="col-12 table ticket-list-table align-middle mb-0"
         >
           <colgroup>
-            <col style={{ width: '35%' }} />
-            <col style={{ width: '20%' }} />
+            <col style={{ width: '40%' }} />
+            <col style={{ width: '25%' }} />
             <col style={{ width: '15%' }} />
             <col style={{ width: '20%' }} />
           </colgroup>
@@ -35,8 +35,12 @@ function TicketListCard() {
           <tbody>
             <tr>
               <td>
-                <div>
-                  <img src="/ticket.svg" className="me-3" />
+                <div className="d-flex flex-column align-items-center flex-md-row">
+                  <img
+                    src="/ticket.svg"
+                    width={48}
+                    className=" me-md-3 align-center"
+                  />
                   <div className="d-flex flex-column justify-content-evenly">
                     <p className=" text-gray-700 fw-medium">
                       Sunucu Problemleri Hakkında Bi...
@@ -57,8 +61,12 @@ function TicketListCard() {
             </tr>
             <tr>
               <td>
-                <div>
-                  <img src="/ticket.svg" className="me-3" />
+                <div className="d-flex flex-column align-items-center flex-md-row">
+                  <img
+                    src="/ticket.svg"
+                    width={48}
+                    className=" me-md-3 align-center"
+                  />
                   <div className="d-flex flex-column justify-content-evenly">
                     <p className=" text-gray-700 fw-medium">
                       Aktarım Sorunları

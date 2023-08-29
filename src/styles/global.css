@@ -221,11 +221,6 @@ table.ticket-list-table {
   padding-right: 1rem;
 }
 
-.ticket-list-table tbody tr td:first-child div {
-  display: flex;
-  width: fit-content;
-}
-
 .ticket-list-table tbody tr td:not(:first-child) {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
