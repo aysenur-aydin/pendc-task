@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg text-small ">
-      <div className="container-fluid">
+      <div className="container-fluid py-2 py-lg-0">
         <span className="navbar-brand">
           <img src="/logo.svg" alt="PENDC" className="navbar-brand" />
         </span>
